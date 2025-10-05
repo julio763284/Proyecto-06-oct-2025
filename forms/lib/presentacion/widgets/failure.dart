@@ -21,7 +21,6 @@ class Failure extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 32,
                   color: Colors.white,
-                  fontWeight: FontWeight.bold,
                 ),
               ),
             ),
