@@ -7,12 +7,7 @@ class ExitosoHomepage extends Estadoshomepage {
   final String? nombre;
   final String? placa;
   final String? tiempodeServicio;
-  ExitosoHomepage(
-    this.grado,
-    this.nombre,
-    this.placa,
-    this.tiempodeServicio,
-  )
+  ExitosoHomepage(this.grado, this.nombre, this.placa, this.tiempodeServicio);
 }
 
 class Errorhomepage extends Estadoshomepage {}
