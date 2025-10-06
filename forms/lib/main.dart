@@ -1,22 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:forms/Homepage.dart';
+import 'package:forms/presentacion/widgets/failure.dart';
+import 'package:forms/presentacion/widgets/loading.dart';
+import "formulario.dart";
 
-void main(){
-    runApp(MyApp());
+
+void main() {
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-    const MyApp({super.key});
+  const MyApp({super.key});
 
-    @override
-    Widget build(BuildContext context) {
+  @override
+  Widget build(BuildContext context) {
     return MaterialApp(
-        home: Scaffold(
-            appBar: AppBar(
-                title: Text("POLICIA NACIONAL", style: TextStyle(fontSize: 30.0)),
-            ),
-        )
-    );
-    }
+      home: Formulario());
+  }
 }
-
-
